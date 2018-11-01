@@ -42,8 +42,8 @@ Page({
       let size = infos.length;
       for (let i=0; i<size; i++) {
         let d1 = infos[i].date.substring(5);
-        if (date <= d1 && arr.length <= 5) {
-          end = this.getDis(now, d1);
+        if (arr.length <= 5) {
+          end = this.getDis(now, date, d1);
           infos[i].end = end;
           arr.push(infos[i]);
         }
@@ -51,7 +51,7 @@ Page({
 
       if (arr.length == 0 && size > 0) {
         let d1 = infos[0].date.substring(5);
-        end = this.getDis(now, d1);
+        end = this.getDis(now, date, d1);
         infos[0].end = end;
         arr.push(infos[0]);
       }
@@ -64,8 +64,11 @@ Page({
       }
     } 
   },
-  getDis: function (d1, d2) {
+  getDis: function (d1,date,d2) {
     let y = d1.getFullYear();
+    if (date > d2) {
+        y = y+1;
+    }
     d2 = y + '-' + d2;
     return d2;
   }, 

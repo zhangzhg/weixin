@@ -3,10 +3,9 @@
 	"svr": "server/",
 	"miniprogramRoot": "client/",
 	"qcloudRoot": "server/",
-  "cloudfunctionRoot": "cloud/",
 	"setting": {
 		"urlCheck": true,
-		"es6": true,
+		"es6": true, 
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
