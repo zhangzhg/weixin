@@ -1,0 +1,18 @@
+<template name="we-cropper">
+   <canvas disable-scroll="true" 
+           bindtouchstart="touchStart"
+           bindtouchmove="touchMove"
+           bindtouchend="touchEnd"
+           class="cropper {{cutImage}}"
+           canvas-id="{{id}}"
+           style="width:{{width}}px;height:{{height}}px;">
+    </canvas>
+</template>
+
+<view class="cropper-wrapper {{cutImage}}">
+  <template is="we-cropper" data="{{...cropperOpt}}"/>
+  <view class="cropper-buttons">
+    <view class="upload" bindtap="chooseimage">选择</view>
+    <view class="ok" bindtap="getCropperImage">确定</view>
+  </view>
+</view>

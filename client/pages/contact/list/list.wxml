@@ -1,0 +1,5 @@
+<i-cell-group>
+    <i-cell wx:for="{{infos}}" wx:key="{{item.id}}" wx:for-item="item" title="{{item.name}}">
+      <i-icon slot="footer" color='#EA6F5A' bindtap='remove' data-id="{{item.id}}"  type="close" size="20" />
+    </i-cell>
+</i-cell-group>

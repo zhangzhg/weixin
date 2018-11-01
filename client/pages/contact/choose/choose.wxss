@@ -1,0 +1,41 @@
+.cropper-wrapper {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  overflow: hidden;
+  background-color: #B0B0B0;
+}
+
+.cropper {
+  background-color: white;
+}
+
+.cropper-buttons {
+  flex: 1;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.upload {
+  border: 1px solid #EA6F5A;
+  border-radius: 40px;
+  background-color: #B0B0B0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 80px;
+  text-align: center;
+  color: white;
+}
+
+.ok {
+  border: 1px solid #EA6F5A;
+  border-radius: 40px;
+  margin-bottom: 5px;
+  background-color: #B0B0B0;
+  text-align: center;
+  color: white;
+  width: 80px;
+}

@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+  <block class='body-container'>
+    <view class='body'>
+      <form id='form' bindsubmit="formSubmit">
+        <view hidden='true'>
+          <input name="id" value='{{id}}'></input>
+        </view>
+        <view class="form-container">
+          <view class="btn-area">
+            <view class='i-btn'  bindtap="list" hover-class='i-icon-hover'><i-icon type="other" size="28" class='i-icon'/></view>
+            <view class='i-btn' hover-class='i-icon-hover'>
+              <i-icon type="right" size="28" class='i-icon'/>
+              <button class='hid-btn' form-type='submit'></button>
+            </view>
+          </view>
+          <view class="section">
+            <view class="section_title">名称:</view>
+            <input name="name" placeholder="例如：结婚纪念日" value='{{name}}'/>
+          </view>
+          <view class="section">
+            <view class="section_title">日期选择:</view>
+            <picker mode="date" value="{{date}}" start="1960-01-01" end="2080-01-01" bindchange="bindDateChange">
+              <view class="picker">
+                <input name="date" value='{{date}}' disabled='true'/>
+              </view>
+            </picker>
+          </view>
+          <view class="section">
+            <view class="section_title">时间</view>
+            <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+              <view class="picker"> 
+                <input name="time" value='{{time}}' disabled='true'/>
+              </view>
+            </picker>
+          </view>
+          <view class="section">
+            <view class="section_title">描述:</view>
+            <input class="ipt" name="desc" value='{{desc}}' placeholder="例：今天领取了结婚证，表示很开心。" />
+          </view>
+          <view class="section">
+            <view class="section_title">是否提示：</view>
+            <radio-group name="show" class="redio-1">
+              <label><radio value="是" checked/>是</label>
+              <label><radio value="否"/>否</label>
+            </radio-group>
+          </view>
+          <view class="section">
+            <view class="section_title">上传照片：</view>
+            <image class="xd-img-user1" mode='aspectFit' catchtap="chooseImageTap" src="{{logo}}"></image>
+          </view>
+        </view>
+      </form>
+    </view>
+  </block>
+</view>

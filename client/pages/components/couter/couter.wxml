@@ -1,0 +1,6 @@
+<view class="countDownTimeView" >
+    <view class="voteText"><text class='countDownTimeText'>{{countDownDay}}</text>天</view>
+    <view class="voteText"><text class='countDownTimeText'>{{countDownHour}}</text>时</view>
+    <view class="voteText"><text class='countDownTimeText'>{{countDownMinute}}</text>分</view>
+    <view class="voteText"><text class='countDownTimeText'>{{countDownSecond}}</text>秒</view>
+</view>

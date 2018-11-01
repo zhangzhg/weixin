@@ -1,0 +1,21 @@
+.countDownTimeView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.voteText {
+  margin-right: 5px;
+  font-size: 18px;
+  font-family:cursive;
+  text-shadow:6px 2px 2px #333;
+  color:aquamarine;
+}
+
+.countDownTimeText {
+  margin-right: 2px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}

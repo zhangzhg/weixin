@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:if="{{!hasUserInfo && canIUse}}" class='usermotto'>
+    <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 使用微信登录 </button>
+  </view>
+  <block wx:else class='body-container'>
+    <view class='body'>
+      <view wx:if="{{!hasData}}" class='no-data"'>  
+         <text>你可以在添加提醒里面添加你最关注的事件</text>
+      </view>
+      <block wx:else>
+        <swiper class="swiper" indicator-dots="true" indicator-color="white">  
+          <block wx:for="{{arr}}" wx:for-index="index" wx:key="index" wx:for-item="item">  
+            <swiper-item>  
+              <image class='bg' mode='scaleToFill' catchtap="chooseImageTap" src="{{item.src}}"></image>
+              <view class='c-info'>
+                <view class='info'>         
+                  <view class='voteText t-vote'>{{item.name}}</view>
+                  <view class='voteText'>倒计时</view>  
+                  <view class='couter'><i-couter date=" {{item.end}}"/></view>
+                </view>
+              </view>
+            </swiper-item>  
+          </block>  
+        </swiper> 
+      </block>
+    </view>
+  </block>
+</view>

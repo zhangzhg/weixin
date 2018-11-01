@@ -1,0 +1,61 @@
+/**index.wxss**/
+.usermotto {
+  margin-top: 200px;
+}
+
+.no-data {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.info {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EA6F5A;
+  border-radius: 200px;
+}
+
+.bg {
+  position: fixed;
+  flex: 1;
+  height: 100vh;
+  width: 100vw
+}
+
+.couter {
+  width: 100vw;
+  margin-bottom: 35px;
+}
+
+.voteText {
+  margin-right: 5px;
+  font-size: 25px;
+  font-family:cursive;
+  text-shadow:6px 2px 2px #333;
+  color:coral;
+  margin-bottom: 35px;
+}
+
+.t-vote {
+  margin-top: 20px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px deeppink; 
+  -webkit-text-fill-color: transparent;
+  text-shadow:2px 1px 1px #333;
+}
+
+.c-info {
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  top:25vh;
+  justify-content:center;
+}
+
+.swiper {
+  height: 100%;
+  overflow: hidden;
+}

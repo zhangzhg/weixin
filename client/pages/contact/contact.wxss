@@ -1,0 +1,79 @@
+.btn-area {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+
+.i-btn {
+  color: white;
+  border: 1px solid #EA6F5A;
+  border-radius: 40px;
+  width: 40px;
+  height: 25px;
+  line-height: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  align-items: center;
+  width: 100%;   
+  border-bottom: 1px solid rgb(224, 221, 247)
+}
+
+.section_title {
+  width: 100px;
+}
+
+.ipt {
+  flex: 1;
+}
+
+.xd-img-user1 {
+  height: 25vh;
+  width: 25vw;
+  border: 1px solid rgb(224, 221, 247);
+  margin-bottom: 5px;
+}
+
+.redio-1 {
+  margin-bottom: 5px;
+}
+
+.redio-1 label {
+  margin-right: 10px;
+}
+
+.i-icon {
+  color: green;
+}
+
+.i-icon-hover {
+  background-color: #b0b0b0;
+}
+
+.hid-btn {
+  width: 42px;
+  height: 26px;
+  opacity: 0.01;
+  position: relative;
+  top:-28px;
+  border-radius: 40px;
+}

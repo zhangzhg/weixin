@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-card": "../components/card/index",
+    "i-icon": "../components/icon/index",
+    "i-tag": "../components/tag/index"
+  }
+}

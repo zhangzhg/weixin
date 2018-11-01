@@ -1,0 +1,31 @@
+<view class='body'>
+  <scroll-view scroll-y class='card-body' style='height: {{height}}px' bindscrolltolower="load">
+    <view class='card-v' wx:for="{{arr}}" wx:for-item="item" wx:key="unique" >
+      <i-card
+          title="{{item.title}}"
+          num="{{item.num}}"
+          tag="{{item.tag}}"
+          price="{{item.price}}"
+          desc="{{item.desc}}"
+          thumb="{{item.imageURL}}"
+        >
+        <view slot="tags" class='c-num'>总销售： {{item.total}}</view>
+        <view slot="footer">
+          <i-icon type="publishgoods_fill" data-item="{{item}}" bindtap='publish' size="28"  hover-class="active"/>
+          <i-tag
+            wx:if="{{ item.count }}"
+            mark
+            type="danger"
+          >
+          {{ item.count }}
+          </i-tag>
+        </view>
+      </i-card>
+    </view>
+  </scroll-view>
+  <view class='card-footer'>
+      <i-icon type="publishgoods_fill" bindtap='viewItems' size="60" class='basket' hover-class="active"/>
+      <view  wx:if="{{ count }}" class='basket-count'>{{count}}</view>
+      <view class='money'><label>总计：¥ </label>{{totalMoney}}</view>
+  </view>
+</view>

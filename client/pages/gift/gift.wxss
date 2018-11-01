@@ -1,0 +1,72 @@
+.i-publish {
+   color:#80848f;
+}
+
+.card-v {
+  border-bottom: 1px solid #B0B0B0;
+}
+
+.body {
+  border-top: 1px solid #B0B0B0;
+  display: flex;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow-y: hidden;
+}
+
+.count {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.c-num {
+  position: absolute;
+  bottom: 10px;
+}
+
+.card-footer {
+  height: 40px;
+  background-color: #EBEDF4;
+}
+
+.card-body {
+  overflow-y: auto;
+}
+
+page {
+  overflow-y: hidden;
+}
+
+.basket {
+  position: relative;
+  top: -28px;
+  left: 35px;
+  color: #AAB8A3; 
+}
+
+.basket-count {
+  position: relative;
+  top: -77px;
+  left: 78px;
+  color: white; 
+  border-radius: 50%;      
+  -moz-border-radius: 50%;      
+  -webkit-border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding-left: 1px;
+  font-size: 11px;
+  background-color:  #AAB8A3;
+}
+
+.money {
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  color: #7A023C;
+}
