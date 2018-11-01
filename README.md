@@ -1,6 +1,10 @@
 # Wafer2 快速开发 Demo
 
-本仓库是最简版的 Wafer2 开发套件，建议配合腾讯云微信小程序开发者工具解决方案一起使用。适用于想要使用 Wafer SDK 开发的开发者，Demo 对 SDK 进行了详细的使用和介绍，降低开发者的学习成本。
+本项目为了记住一些重大事件， 然后自动提醒。后续还会在关键日期自动送贺卡，礼物等功能。
+
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
+      <source id="mp4" src="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
+</video>
 
 **登录接口切换公告：https://github.com/tencentyun/wafer2-quickstart/issues/10**
 
