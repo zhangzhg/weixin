@@ -2,9 +2,12 @@
 
 本项目为了记住你关注的一些重大事件， 然后自动提醒。后续还会在关键日期自动送贺卡，礼物等功能。
 
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="http://gslb.miaopai.com/stream/PAEyMDoxMSB9hV6BVT1l5SHT-sMVVRVgHlL7bA__.mp4?mpflag=64&amp;vend=1&amp;os=3&amp;partner=1&amp;platform=2&amp;cookie_id=&amp;refer=miaopai&amp;scid=PAEyMDoxMSB9hV6BVT1l5SHT-sMVVRVgHlL7bA__ " type="video/mp4">
-</video>
+![首页](https://github.com/zhangzhg/weixin/detail/0.png)
+![新增](https://github.com/zhangzhg/weixin/detail/1.png)
+![新增](https://github.com/zhangzhg/weixin/detail/2.png)
+![新增](https://github.com/zhangzhg/weixin/detail/3.png)
+![礼物](https://github.com/zhangzhg/weixin/detail/4.png)
+![我的](https://github.com/zhangzhg/weixin/detail/5.png)
 
 ### 初始化并上传
 
