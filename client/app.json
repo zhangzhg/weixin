@@ -8,8 +8,13 @@
     "pages/contact/choose/choose",
     "pages/contact/list/list",
     "pages/note/note",
+    "pages/goods-details/index",
     "pages/gift/gift",
-    "pages/basket/index"
+    "pages/shop-cart/index",
+    "pages/basket/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index",
+    "pages/address-add/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

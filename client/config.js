@@ -3,7 +3,7 @@
  */
 
 // 此处主机域名修改成腾讯云解决方案分配的域名
-var host = 'https://tcb-api.tencentcloudapi.com';
+var host = 'https://api.it120.cc';
 
 var config = {
 
